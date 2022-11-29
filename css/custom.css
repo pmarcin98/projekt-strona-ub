@@ -1,0 +1,194 @@
+.masthead, #services, .about-ous, #portfolio, #faq, #contact-info, #form, .form-ub {
+    position: relative;
+}
+.form-ub {
+    padding-top: 75px;
+}
+.navbar-brand p {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar-brand p:hover {
+    color: #d33b4d;
+    text-shadow: 1px 1px #ba3a49;
+}
+.masthead-heading {
+    background-color: #040404c9 !important;
+    font-size: 2.5rem !important;
+}
+@keyframes phone {
+    50%{
+        transform: rotate(30deg);
+    }
+}
+.material-symbols-outlined {
+    font-size: 2.25rem !important;
+    animation-name: phone;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.about-ous {
+    padding-top: 0 !important;
+}
+.nav-form {
+    background-color: #212529 !important;
+}
+section#form {
+    margin-top: 6em;
+}
+.form-control {
+    margin: 5px!important;
+}
+.box-form {
+    border: 3px solid #d02035 !important;
+    padding: 20px !important;
+    margin-top: 25px !important;
+}
+.form-section {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d02035 !important;
+    margin-top: -37px;
+    margin-bottom: 20px;
+    background: #fff;
+    position: absolute;
+    padding: 0 10px;
+}
+.container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#form form {
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width: 992px) {
+.col-lg-3 {
+
+  width: 30% !important;
+}
+.pozostale-box {
+    display: flex;
+    justify-content: space-between;
+}
+.pozostale-box input {
+    display: inline;
+    width: 45%;
+}
+}
+.file-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.file-box .file-form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#form .col-md-4, #form .col-12 {
+    margin-top: 10px;
+}
+#contact-info .fa-stack .fa-circle {
+    color: #d02035 !important;
+}
+.masthead-heading {
+    color:#d02035;
+}
+.masthead-subheading {
+    color: #435d7a !important;
+}
+@keyframes zglos-szkode {
+    50%{
+        transform: scale(0.8);
+    }
+}
+.zglos-szkode {
+    animation-name: zglos-szkode;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    box-shadow: 3px 3px 3px #435d7a;
+    padding: 2px;
+}
+@media (min-width: 992px) {
+    .zglos-szkode {
+        margin-left: 35px;
+    }
+}
+
+.wave-custom {
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave-custom svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 75px;
+}
+
+.wave-custom .shape-fill {
+    fill: #FFFFFF;
+}
+.wave-custom-red {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave-custom-red svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 75px;
+}
+
+.wave-custom-red .shape-fill {
+    fill: #D02035;
+}
+.wave-custom-red-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    padding: 0 !important;
+}
+.wave-custom-red-top svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 75px;
+}
+
+.wave-custom-red-top .shape-fill {
+    fill: #D02035;
+}
+#form .form-check p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #D02035;
+}
+.change-form-input{
+    display: none;
+}
+.pozostale-box textarea {
+    width: 100%;
+}
